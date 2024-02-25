@@ -1,8 +1,10 @@
 from flask import Flask, jsonify, request
 from gradio_client import Client
+from flask_cors import CORS  
 import json
 
 app = Flask(__name__)
+CORS(app) 
 
 client = Client("https://atulit23-realvfake.hf.space/")
 phishing_client = Client("https://atulit23-phishingurls.hf.space/")
