@@ -1,0 +1,6 @@
+flask
+gradio
+uvicorn
+gunicorn
+gradio
+gradio_client
