@@ -4,3 +4,4 @@ uvicorn
 gunicorn
 gradio
 gradio_client
+flask_cors
